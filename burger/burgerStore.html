@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Anjolaoluwa Obaduyi">
+    <meta name="description" content="My First Web Page, Burger Shop">
+    <title>Burger Shop</title>
+    <link rel="icon" href="burgerIcon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Burger Shop</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About BS</a>
+                </li>
+                <li>
+                    <a href="#menu">Our menu</a>
+                </li>
+                <li>
+                    <a href="storehrs.html">Store Hours</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="shop.jpg" alt="beef burger" title="Burger Shop" width="400" height="267">
+            <figcaption>Burger Shop</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <article id="about">
+            <h2>About The Burger Shop</h2>
+            <p><abbr title="Burger Shop">BS</abbr> was found in <time datetime="2022">2022</time> our shop was built from a love of burgers. We hope our shop adds a unique and interesting place to our little town.</p>
+
+            <aside>
+                <h3>Burger Trivia</h3>
+                <details>
+                    <summary>When did burger first appear in the united States?</summary>
+                    <p>
+                        In Germany, a meat patty on bread called Rundstück Warm was popular by at least 1869. But the true precursor to the burger we know today seems to be an inexpensive dish called hamburger steak, which began appearing on American menus in the early <time datetime="1870">1870</time> (Source: <cite><a href="https://www.washingtonpost.com/food/2021/05/28/hamburger-origin-story/">The hamburger's story-The Washington Post</a></cite>)
+                    </p>
+                </details>
+            </aside>    
+        </article>
+        <hr>     
+        <article id="menu">
+            <h2>Our Menu</h2>
+            <table>
+                <caption>Our Burgers</caption>
+                <thead>
+                <tr>
+                    <th>Burgers</th>
+                    <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                    <th scope="col">Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            Hamburger
+                        </th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.50</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.25</td>
+                        
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            Cheeseburger
+                        </th>
+                        <td>1</td>
+                            <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$4.50</td>   
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            Fries &amp; Sauce $2
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+        </article>        
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; Burger Shop</p>
+    </footer>
+</body>
+</html>
